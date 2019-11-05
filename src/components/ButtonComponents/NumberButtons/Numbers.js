@@ -22,5 +22,3 @@ const Numbers = (props) => {
 };
 
 export default Numbers;
-
-//this is the parent component? why?
