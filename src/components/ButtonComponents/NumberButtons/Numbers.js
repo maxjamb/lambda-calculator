@@ -8,8 +8,7 @@ import {numbers} from '../../../data';
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
 
-  // const [number, setNumber] = useState(numbers)
-
+  // const [number, setNumber] = useState(numbers) (not needed)
   return (
     <div>
       {numbers.map(character => <NumberButton numberChar= {character} click={props.clickHandler}/>)
@@ -19,6 +18,7 @@ const Numbers = (props) => {
        }
     </div>
   );
+
 };
 
 export default Numbers;
